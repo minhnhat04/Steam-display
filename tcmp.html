@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/TCMP.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.2.1-web/css/all.css">
+    <link rel="stylesheet" href="/css/TCMP2.css">
+    <link rel="stylesheet" href="/css/TCMP3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        #test1{
+            width: 100%;
+            height: 300px;
+            overflow-x:auto;
+            overflow-y:hidden;
+        }
+    </style>
+    <style>
+        #test2{
+            width: 100%;
+            height: 100px;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+        #text2:-webkit-scrollbar {
+            width: 6px;
+            background-color: #F5F5F5;
+            } 
+        #text2::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+            background-color: #555;            }
+        #text2::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            border-radius: 10px;
+            background-color: #F5F5F5;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="responsive_header_menu">
+            <a href=""><img class="img-menu" src="/imgWebsite/header_menu_hamburger.png" alt=""></a>
+            <div class=".responsive_header_logo">
+                <img class="img-logo" src="/imgWebsite/header_logo (1).png" alt="">
+            </div>
+        </div>
+        <div class="thanh_menu_phu">
+            <div class="backgorud_tt">
+                <!-- <video class="img_backgroud_tt" autoplay muted loop>
+                    <source aria-valuemax="1" src="/imgWebsite/webm_page_bg_vietnamese (1).webm">
+                </video> -->
+                <img class="img_backgroud_tt" src="/imgWebsite/page_bg_vietnamese.jpg" alt="">
+        </div>
+        <div class="thanh_menu_phu01">
+                <div class="thanh_menu_phu02">
+                    <ul>
+                        <li class="Cua_hang"><a href="">Cửa hàng của bạn</a>
+                                <ul class="Trang_chu">
+                                    <li><a href="/WEB.html">Trang chủ</a></li>
+                                    <li><a href="/BanChay.html">Bán chạy nhất</a></li>
+                                    <li><a href="/TCMP.html">Trò chơi miễn phí</a></li>
+                                    <li><a href="/GIoiThieu.html">Giới thiệu</a></li>
+                                </ul>
+                            </li>
+                        <li class="Moi"><a href="">Mới & đáng chú ý</a>
+                            <ul class="Steam">
+                                <li><a href="">Steam Replay 2022</a></li>
+                                <li><a href="">Khuyến nghị từ cộng đồng</a></li>
+                                <li><a href="">Đã xem gần đây</a></li>
+                                <li><a href="">Chơi nhiều nhất</a></li>
+                            </ul>
+                        </li>
+                        </li>
+                        <li><a href="">Laps</a></li>
+                        <li><a href="">Cửa hàng điểm</a></li>
+                        <li><a href="">Tin tức</a></li>
+                        <li><a href="Login.html">Đăng nhập</a></li>
+                    </ul>
+                    <div>
+                        <div class="box">
+                            <div class="container-2">
+                                <span class="icon"><i class="fa fa-search"></i></span>
+                                <input type="search" id="search" placeholder="Search..." />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Phan_can"></div>
+            <div class="Phan_than_001">
+                <div class="Phan_than_0001">
+                    <div class="Phan_than_00001">
+                        <h2>Trò chơi miễn phí</h2>
+                    </div>
+                    <div id="test1">
+                        <img src="/imgWebsite/Frame 1.png" style="width:1950px" height="100%">
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="Phan_than">
+                <div class="Phan_than_01">
+                    <h2>TRÒ CHƠI MIỄN PHÍ</h2>
+                        <div class="Back_live_show">
+                            <div class="Div_live">
+                                <div class="w3-content w3-display-container">
+                                    <img class="mySlides" src="/imgWebsite/Screenshot (971).png" style="width:100%" height="autoplay">
+                                    <img class="mySlides" src="/imgWebsite/Screenshot (96).png" style="width:100%" height="autoplay">
+                                    <img class="mySlides" src="/imgWebsite/Screenshot (95).png" style="width:100%" height="autoplay">
+                                    <img class="mySlides" src="/imgWebsite/Screenshot (98).png" style="width:100%" height="autoplay">
+                                    <img class="mySlides" src="/imgWebsite/Screenshot (94).png" style="width:100%" height="autoplay">
+                                    <div class="button1">
+                                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                                    </div>
+
+                                    <script>
+                                        var slideIndex = 1;
+                                        showDivs(slideIndex);
+                                        
+                                function plusDivs(n) {
+                                  showDivs(slideIndex += n);
+                                }
+                                
+                                function showDivs(n) {
+                                    var i;
+                                    var x = document.getElementsByClassName("mySlides");
+                                    if (n > x.length) {slideIndex = 1}
+                                    if (n < 1) {slideIndex = x.length}
+                                    for (i = 0; i < x.length; i++) {
+                                        x[i].style.display = "none";  
+                                    }
+                                    x[slideIndex-1].style.display = "block";  
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="Nut_tuong_trung"> </div>
+                    <div class="Nut_tuong_trung"> </div>
+                    <div class="Nut_tuong_trung"> </div>
+                    <div class="Nut_tuong_trung"> </div> -->
+                </div>
+                </div>
+                <div class="Phan_than_2">
+                    <div class="Phan_than_02">
+                        <div id="test2">
+                            <ul>
+                                <li><a href="">TIÊU ĐIỂM</a></li>
+                                <li><a href="">HÀNH ĐỘNG</a></li>
+                                <li><a href="">PHIÊU LƯU</a></li>
+                                <li><a href="">ĐƠN GIẢN</a></li>
+                                <li><a href="">NHẬP VAI (RPG)</a></li>
+                                <li><a href="">MÔ PHỎNG</a></li>
+                                <li><a href="">THỂ THAO & ĐUA XE</a></li>
+                                <li><a href="">CHIẾN THUẬT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+                <div class="Phan_than_3">
+                    <div class="Phan_than_03">
+                        <div class="Phan_than_003">
+                            <h1>TRONG DANH SÁCH ƯỚC</h1>
+                        </div>
+                        <div style="cursor: pointer;" class="Phan_than_0003">
+                            <h1>Đăng nhập để xem thêm những vật phẩm được chọn riêng cho</h1>
+                            <div class="Dang_nhap">Đăng nhập</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Phan_than_4">
+                    <div class="Phan_than_04">
+                        <div class="Phan_than_004">
+                            <h1>TỰA PHỔ BIẾN</h1>
+                        </div>
+                        <div class="Phan_than_0004">
+                            <img src="/imgWebsite/Screenshot (991).png" alt="">
+                            <img src="/imgWebsite/Screenshot 100.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="Phan_than_5">
+                    <div class="Phan_than_05">
+                        <div class="Phan_than_0005">
+                            <img src="/imgWebsite/Screenshot (992).png" alt="">
+                            <img src="/imgWebsite/Screenshot (993).png" alt="">
+                            <img src="/imgWebsite/Screenshot (994).png" alt="">
+                        </div>
+                    </div>
+                    <!-- <div class="Xem_them">
+                        <div class="Xem_them_1">
+                            <h1 style="cursor: pointer;">
+                                Hiện Thêm
+                            </h1>
+                        </div>
+                    </div>
+                </div> -->
+                <img class="Div" src="/imgWebsite/111111111.png" alt="">
+            </div>
+                </div>
+            </div>
+    </header>
+</body>
+</html>

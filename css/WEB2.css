@@ -1,0 +1,493 @@
+    /* Tablet */
+    @media (min-width: 768px) and (max-width: 1023px) {
+        body{
+            background-color: #1B2838;
+        }
+    
+        header{
+            background-color: #171A21;
+            width: 100%;
+            height: 65px;
+            box-shadow: 0 0 7px 0 rgba( 0, 0, 0, 0.75 );
+            text-align: center; 
+        }
+        .responsive_header-logo{
+            background-color: #171A21;
+            width: 100%;
+            height: 50px;
+            padding: 7px 8px;
+            text-align: center;
+        }
+        .responsive_header_menu{
+            background-color: #171A21;
+            width: 100%;
+            height: 50px;
+            padding: 10px 8px;
+            text-align: center;
+            padding: 13px 8px;
+        }
+        .img-logo{
+            width: 150px;
+            height: 35px;
+        }
+        .img-menu{
+            width: 36px;
+            height: 31px;
+            float: left;
+        }
+        .backgorud_tt{
+            width: 100%;
+            height: auto;        
+        }
+        .img_backgroud_tt{
+            width: 100%;
+            height:auto;
+        }
+        .thanh_menu_phu{
+            width: 100%;
+            height: 200px;
+            margin-top: auto;
+            position: relative;
+        }   
+    
+        .thanh_menu_phu01{
+            width: 750px;
+            height: auto;
+            margin: auto;
+        }
+        .thanh_menu_phu02{
+            background: linear-gradient(90deg, rgba(62, 103, 150, 0.919) 11.38%, rgba(58, 120, 177, 0.8) 25.23%, rgb(15, 33, 110) 100%);
+            box-shadow: 0 0 3px rgba( 0, 0, 0, 0.4);
+            width: 750px;
+            height: 43px;
+            position: absolute;
+            top: 24px;
+            height: auto;
+            border-radius: 5px;
+        }
+        .thanh_menu_phu02 ul {
+            
+        }
+    
+        .thanh_menu_phu02 li{
+            list-style: none;
+            display: inline-block;
+            float: left;
+            padding: 10px 0;
+        }
+        .thanh_menu_phu02 li a{
+            color: aliceblue;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 0 13px;    
+        }
+        .container-2{
+            width: 300px;
+            vertical-align: middle;
+            white-space: nowrap;
+          }
+          .container-2 input#search{
+            margin-top: 12px;
+            width: 145px;
+            height: 20px;
+            background: #316282;
+            border: none;
+            font-size: 10pt;
+            color: #262626;
+            padding-left: 35px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            color: #fff;
+            -webkit-transition: width .55s ease;
+            -moz-transition: width .55s ease;
+            -ms-transition: width .55s ease;
+            -o-transition: width .55s ease;
+            transition: width .55s ease;
+         }
+        .container-2 input#search::-webkit-input-placeholder {
+            color: black;
+         }
+         .container-2 input#search:-moz-placeholder { /* Firefox 18- */
+            color: #65737e;  
+         }
+         .container-2 input#search::-moz-placeholder {  /* Firefox 19+ */
+            color: #65737e;  
+         }
+         .container-2 input#search:-ms-input-placeholder {  
+            color: #65737e;  
+         }
+         .container-2 .icon{
+            position: absolute;
+            top: 50%;
+            margin-left: 8px;
+            padding: 4px 0px;
+            z-index: 1;
+            color: white;
+            font-size: 12px;
+          }
+          /* .container-2 input#search:focus, .container-2 input#search:active{
+            outline:none;
+            width: 150px;
+          }
+          .container-2:hover input#search{
+          width: 150px;
+          }
+          .container-2:hover .icon{
+            color: #93a2ad;
+          } */
+        .Nut_tuong_trung{
+            display: inline-block;
+            margin: 35px 2px;
+            width: 15px;
+            height: 9px;
+            border-radius: 2px;
+            transition: background-color 0.2s;
+            background-color: hsla(202,60%,100%,0.2);
+            cursor: pointer;
+            
+        }
+        .Cua_hang{
+            
+        }
+    
+        .Trang_chu{
+            background: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%);
+            display: none;
+            width: 220px;
+            height: 180px;
+            position: absolute;
+            margin-top: 5px;
+    
+        }
+        .Trang_chu li a {
+            color: #989898;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+        }
+        .Trang_chu li a:hover{
+            color:#ffffff;
+        }
+        .Cua_hang:hover .Trang_chu{
+            display: block;
+            animation: anima ease 0.5s;
+        }
+        .Steam{
+            background: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%);
+            display: none;
+            width: 210px;
+            height: 240px;
+            position: absolute;
+            margin-top: 5px;
+    
+        }
+        .Steam li a {
+            color: #989898;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+        }
+        .Steam li a:hover{
+            color: aliceblue;
+        }
+        .Moi:hover .Steam{
+            display: block;
+            animation: anima ease 0.4s;
+        }
+    
+        @keyframes anima{
+        from{
+            opacity: 0;
+            transform: scale(0);
+        }to{
+            opacity: 1;
+            transform: scale(1);
+        }
+        }
+        .Phan_than{
+            background-color: #1B2838;
+            height: 380px;
+        }
+        .Phan_than_01{
+            width: 650px;
+            height: 200px;
+            margin: auto;
+        }
+        .Phan_than_002{
+            width: 100%;
+            height: 500px;
+            display: none;
+        }
+        .Phan_than_01 h2 {
+        color: #ffffff;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        padding: 20px;
+        font-weight: normal;
+        padding-right: 30pc;
+        margin-left: -20px;
+    
+        }
+        .Back_live_show{
+        width: 100%;
+        height: 220px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+        }
+.Div_live_show{
+    background-color: #000000;
+    height: 350px;
+}
+
+.w3-content{
+    position: relative;
+}
+
+.button1 button{
+    background-color: #3A3D6a;
+    width: 38px;
+    height: 100px;
+    top: 65px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 50px;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #3A3D6a ;
+}
+.button1 button:hover {
+    transform: scale(1.1);
+    background-color: #23264a;
+    
+}
+.w3-display-left{
+    left: -37px;
+}
+.w3-display-right{
+    right: -37px;
+}
+.Phan_than_2{
+    background-color: #1B2838;
+    height: auto;
+}
+.Phan_than_02{
+    width: 650px;
+    height: 150px;
+    margin: auto;
+}
+.img_steam_1{
+    width: 420px;
+    height: auto;
+    float: left;
+}
+.img_steam_2{
+    width: 215px;
+    height: auto;
+    margin-left: 10px;
+    
+}
+.Phan_than_3{
+    background-color: #1B2838;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.Phan_than_03{
+    width: 650px;
+    height: 290px;
+    margin: auto;
+}
+.Phan_than_03 h2 {
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    font-weight: normal;
+    padding-right: 30pc;
+    margin-left: -20px;
+}
+.Div_dựa_theo_thể_loại{
+    width: 100%;
+    height: 180px;
+}
+.Div_thẻ_loại_game{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.img_game{
+    width: 145px;
+    height: 145px;
+    
+}
+.Div_kinh_dị img{
+    transition: transform 0.5s ease-in-out;
+    
+}
+.Div_kinh_dị img:hover{
+    transform: scale(1.1);
+}
+.Phan_than_0004{
+    width: 100%;
+    height: 30px;
+    display: none;
+}
+.Phan_than_4{
+    background-color: #1B2838;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.Phan_than_04{
+    background-color: #1B2838;
+    width: 650px;
+    height: 140px;
+    margin: auto;
+}
+.Phan_than_04 h2 {
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    font-weight: normal;
+    padding-right: 30pc;
+    margin-left: -20px;
+}
+.Div_duyệt_steam{
+    width: 100%;
+    height: 60px;
+}
+.Div_duyệt_steam div{
+    display: inline-block;
+    height: 58px;
+    width: 140px;
+}
+.Div_duyệt_steam a{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-align: center;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 3px;
+    box-shadow: 0 0 4px #000;
+    transition: transform 0.5s ease-in-out;
+    
+}
+.Div_duyệt_steam a:hover{
+    transform: scale(1.1);
+}
+.Dang_nhap{
+    width: 100%;
+    background-color: #1B2838;
+    height: auto;
+    margin-top: 50px;
+}
+.Dang_nhap_01{
+    background-color: #16202D;
+    width: 650px;
+    height: 150px;
+    margin: auto;
+}
+.Dang_nhap_01 h2{
+    color: gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    font-weight: normal;
+}
+.Dang_nhap_01 button{
+    width: 120px;
+    height: 35px;
+    background: #799905;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #607905;
+    font-size: 15px;
+    background-color:-linear-gradient( to bottom, #799905 5%, #536904 95%);
+}
+.Dang_nhap_01 a {
+    color: floralwhite;
+    text-decoration: none;
+}
+.Phan_Than_5{
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+}
+.Phan_than_05{
+    width: 650px;
+    height: 300px;
+    margin: auto;
+}
+.Phan_than_05 h2 {
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    font-weight: normal;
+    padding-right: 29pc;
+    margin-left: -20px;
+}
+.Phan_than_05 a img {
+    width: 155px;
+    height: 130px;
+}
+.Div_cuoi_trang{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+}
+.Div_cuoi_trang_01{
+    width: 650px;
+    height: 200px;
+    margin: auto;
+}
+.Div_cuoi_trang_h2 {
+    color: #67C1F5;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: normal;
+}
+.Div_cuoi_trang_h02{
+    color: gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+.Div_cuoi_trang_01 button{
+    width: 120px;
+    height: 35px;
+    background: #799905;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #607905;
+    font-size: 15px;
+    margin-top: 20px;
+    background-color:-linear-gradient( to bottom, #799905 5%, #536904 95%);
+}
+.Div_cuoi_trang_h03{
+    color: gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.Div_cuoi_trang_h03 a{
+    color: white;
+    text-decoration: none;
+}
+.Div{
+    width: 100%;
+    height: 180px;   
+    display: none; 
+}
+}

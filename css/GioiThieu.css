@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1D2026;
+    height: auto;
+}
+
+header{ 
+    background-color: #171A21;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0 0 7px 0 rgba( 0, 0, 0, 0.75 );
+}
+.responsive_header-logo{
+    background-color: #171A21;
+    width: 100%;
+    height: 50px;
+    padding: 7px 8px;
+}
+.responsive_header_menu{
+    background-color: #171A21;
+    width: 100%;
+    height: 50px;
+    padding: 10px 8px;
+    padding: 13px 0;
+    text-align: center;
+}
+.img-logo{
+    width: 150px;
+    height: 35px;
+    margin-left: -20px;
+}
+.img-menu{ 
+    width: 36px;
+    height: 31px;
+    float: left;
+}
+.Backrou_img{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+.Steam{
+    background-color: #1D2026;
+    width: 40%;
+    height: 100%;
+}
+.Steam img {
+    margin-top: 100px;
+    width: 300px;
+}
+.Steam h2{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.Steam1{
+    width: auto;
+    height: 100%;
+    background-color: aquamarine;
+}
+.Steam1 img{
+    width: 100%;
+    height: 100%;
+}
+.Cai_dat{
+    width: 350px;
+    height: 50px;
+    background: linear-gradient(to right, #06bfff 50%, #2b74ff 100%);
+    color: aliceblue;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Cai_dat i {
+    margin-left: 40px;
+}
+.Steam h3{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.fa-apple{
+    margin-left: 120px;
+    font-size: 15px;
+    color: aliceblue;
+}
+.fa-steam{
+    margin-left: 5px;
+    font-size: 13px;
+    color: aliceblue;
+}
+.Div{
+    width: 100%;
+    height: auto;    
+}
+
+.dac-trung{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px 0;
+}
+
+.dactrung-item{
+    width: 30%;
+    text-align: center;
+}
+
+.dactrung-item i{
+    font-size: 3.5rem;
+    color: #ccc;
+}
+
+.dactrung-item h5{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.dactrung-item p{
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Div{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.Div img{
+    width: 100%;
+}
